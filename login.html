@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  
+  <link rel="stylesheet" href="../CSS/header_footer.css">
+  <link rel="stylesheet" href="../CSS/login.css">
+  </head>
+<body>
+  <!-- Navigation Bar -->
+ 
+      <header>
+    <h1 class="nav-logo">A Taste of Trinidad and Tobago Cuisine</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+		<li><a href="about us.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+		<li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="register.html">Register</a></li>
+        
+        
+      </ul>
+    </nav>
+	
+  </header>
+
+  <h1>Login</h1>
+    <form id="login-form">
+        <!-- Account Information -->
+		<div>
+  <form action= method="get">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname"><br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+
+	<br><br>
+	
+      <fieldset>
+        <legend><h2>Account Information</h2></legend>
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" required><br><br>
+        </div>
+		<div>
+			<label for="email">Enter Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+		</div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" required><br><br>
+        </div>
+		<br>
+        <a href="#">Forgot password</a>
+        <button type="submit">Login</button>
+        <button type="button" onclick="goBack()">Clear</button>
+      </fieldset>
+    </form>
+  
+  <div id="notification"></div>
+<footer>
+    <p>&copy; 2025 A Taste of Trinidad and Tobago Cuisine. All rights reserved.</p>
+    <p>Author: Betty-Ann Clarke.</p>
+	<p>Tel:1 868 123-4567</p>
+	<a href="https://www.facebook.com/A TasteofTrinidad" target="_blank">Facebook</a><br>
+	 <a href="https://www.instagram.com/TasteT&T" target="_blank">Instagram</a><br>
+	 <a href="https://www.twitter.com/TasteTriniFood" target="_blank">Twitter</a><br>
+  </footer>  
+
+</body>
+</html>

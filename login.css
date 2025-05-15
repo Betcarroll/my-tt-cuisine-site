@@ -1,0 +1,82 @@
+
+
+/* General form container */
+
+
+
+ select {
+  background-color: #fff8f0;
+  max-width: 100px;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #e0dcd3;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+}
+
+/* Headline */
+header {
+	
+	background-color: #e63946;
+	color: white;
+	text-align: center;
+	padding: 24px 0;
+	
+}
+h1 {
+  text-align: center;
+  color: #e63946;
+  margin-bottom: 24px;
+  
+}
+
+  
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Fieldset and Legend */
+ fieldset {
+  border: 1px solid #e63946;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+ legend {
+  font-weight: bold;
+  color: #e63946;
+  padding: 0 0.5rem;
+}
+
+/* Buttons */
+
+ button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #2962FF;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+
+ input[type=submit]:hover {
+  background-color: #d62839;
+}
+
+ a:hover {
+  text-decoration: underline;
+	text-decoration: none;
+  
+
+}

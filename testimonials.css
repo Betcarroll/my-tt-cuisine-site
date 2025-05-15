@@ -1,0 +1,57 @@
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fff8f0;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 40px;
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			
+		}
+		
+		
+		/* 
+  Flexbox testimonial styling adapted from:
+  CSS Tricks - A Complete Guide to Flexbox
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  Customized for layout and design by Betty-Ann Clarke
+*/
+		
+		.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.testimonial {
+	
+  background-color: #fff8f0;
+  border: 1px solid #e0dcd3;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+ gap: 20px;
+}
+
+
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial h4 {
+  text-align: right;
+  font-weight: normal;
+  color: #e63946;
+}
+      
+		

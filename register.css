@@ -1,0 +1,85 @@
+/* Create Account Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	padding:10px 10px
+	background-color: #fff8f0;
+}
+header {
+	
+	background-color: #e63946;
+	color: white;
+	text-align: center;
+	padding: 24px 0;
+}
+h2 {
+	color: #333;
+}
+
+form{
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset{
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 15px;
+}
+legend {
+	font-weight: bold;
+	margin-top: 0 5px;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input [type="text"],
+input [type="email"],
+input [type="password"], 
+input [type="date"], 
+
+select {
+		width: 100%;
+		padding: 8px;
+		margin-top: 5px;
+		box-sizing: border-box;
+		border:1px solid #ccc;
+		border-radius: 4px;
+		
+}
+button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #2962FF;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+button:hover {
+	background-color: #2962FF
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	
+}
+
+
+}
+		
+
+	
+
+
+
